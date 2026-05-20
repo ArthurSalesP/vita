@@ -875,7 +875,7 @@ class _FinanciasState extends State<Financias> {
           child: Column(
             crossAxisAlignment: CrossAxisAlignment.start,
             children: [
-              // ==================== CARD RESUMO ====================
+              // CARD RESUMO 
               Container(
                 padding: const EdgeInsets.all(20),
                 decoration: BoxDecoration(
@@ -931,7 +931,7 @@ class _FinanciasState extends State<Financias> {
 
               const SizedBox(height: 25),
 
-              // ==================== DEFINIR LIMITE ====================
+              // DEFINIR LIMITE 
               TextField(
                 controller: limiteController,
                 keyboardType: TextInputType.number,
@@ -970,7 +970,7 @@ class _FinanciasState extends State<Financias> {
 
               const SizedBox(height: 30),
 
-              // ==================== ADICIONAR GASTO ====================
+              //  ADICIONAR GASTO 
               TextField(
                 controller: nomeController,
                 style: const TextStyle(color: Colors.white),
